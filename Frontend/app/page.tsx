@@ -10,9 +10,9 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<'sign-to-text' | 'text-to-sign' | 'audio-to-sign' | 'settings'>('sign-to-text');
 
   const tabs = [
-    { id: 'sign-to-text', label: 'Sign → Text', icon: '🤟' },
-    { id: 'text-to-sign', label: 'Text → Sign', icon: '✍️' },
-    { id: 'audio-to-sign', label: 'Audio → Sign', icon: '🎤' },
+    { id: 'sign-to-text', label: 'Sign → Text' },
+    { id: 'text-to-sign', label: 'Text → Sign' },
+    { id: 'audio-to-sign', label: 'Audio → Sign' },
     { id: 'settings', label: 'Settings', icon: '⚙️' },
   ];
 
